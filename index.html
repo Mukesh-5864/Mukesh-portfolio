@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukesh P - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .content {
+            padding: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .bio, .skills, .projects, .contact {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .skills ul, .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .projects li {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact form button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mukesh P</h1>
+        <h2>Portfolio</h2>
+    </header>
+
+    <div class="content">
+        <!-- About Me Section -->
+        <div class="section bio">
+            <h2>About Me</h2>
+            <p>Hi, I'm Mukesh P, 19 years old, and currently pursuing my 2nd year of BCA. I have a strong passion for technology, coding, and web development. I enjoy solving problems and continuously learning new skills to improve myself as a developer.</p>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section skills">
+            <h2>Skills</h2>
+            <p>Here are some of the skills I have acquired so far in my academic journey and personal projects:</p>
+            <ul>
+                <li><strong>Programming Languages:</strong> Python, Java, C++, JavaScript</li>
+                <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React</li>
+                <li><strong>Database Management:</strong> MySQL, MongoDB</li>
+                <li><strong>Tools & Frameworks:</strong> Git, Node.js, Bootstrap, Express.js</li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section projects">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I've worked on:</p>
+            <ul>
+                <li>
+                    <strong>Personal Portfolio Website</strong><br>
+                    A responsive and interactive website built using HTML, CSS, and JavaScript. This portfolio page showcases my skills, projects, and personal information.
+                </li>
+                <li>
+                    <strong>Todo App</strong><br>
+                    A simple Todo app developed using JavaScript, HTML, and CSS. The app allows users to add, delete, and mark tasks as completed.
+                </li>
+                <li>
+                    <strong>Weather App</strong><br>
+                    A weather forecasting application using the OpenWeather API, built with React. It shows the current weather based on user input.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="section contact">
+            <h2>Contact Me</h2>
+            <p>If you’d like to get in touch, feel free to drop a message using the contact form below!</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
